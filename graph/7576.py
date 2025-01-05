@@ -1,6 +1,5 @@
 # 토마토
 # 골드5
-
 from collections import deque
 import sys
 input=lambda:sys.stdin.readline().rstrip()
