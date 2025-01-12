@@ -33,6 +33,5 @@ for student in range(1, n+1):
   if student == x:
     for i in range(n+1):
       ans[i] += distances[i]
-      continue
   ans[student] += distances[x]
 print(max(ans[1:]))
