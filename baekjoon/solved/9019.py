@@ -33,3 +33,6 @@ for _ in range(int(input())):
         visited[n] = visited[num][:]
         visited[n].append(i)
         q.append(n)
+
+# 문자열에 계속 문자를 추가하는 것보다 
+# 리스트에 요소를 하나씩 추가하는 것이 시간복잡도가 더 낮음
